@@ -1,0 +1,113 @@
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(270deg, #e15cff, #ff6b6b, #ff81ce, #22ccff);
+
+
+            background-size: 800% 800%;
+
+            -webkit-animation: AnimationName 17s ease infinite;
+            -moz-animation: AnimationName 17s ease infinite;
+            -o-animation: AnimationName 17s ease infinite;
+            animation: AnimationName 17s ease infinite;
+        }
+
+ @-webkit-keyframes AnimationName {
+      0%{background-position:27% 0%}
+      50%{background-position:74% 100%}
+      100%{background-position:27% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:27% 0%}
+      50%{background-position:74% 100%}
+      100%{background-position:27% 0%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:27% 0%}
+      50%{background-position:74% 100%}
+      100%{background-position:27% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:27% 0%}
+      50%{background-position:74% 100%}
+      100%{background-position:27% 0%}
+  }
+
+        .form-container {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        } 
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border:0;
+            box-shadow:4px 4px 10px rgba(0,0,0,0.09);
+            transition: 0.2s;
+        }
+
+        .form-group input:hover{
+            box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .form-group select {
+            font-family: 'Montserrat', sans-serif;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border:0;
+            box-shadow:4px 4px 10px rgba(0,0,0,0.09);
+            transition: 0.2s;
+        }
+        .form-group select:hover{
+            box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+        }
+        .form-group button {
+            font-family: 'Montserrat', sans-serif;
+            background: rgb(82,71,255);
+            background: linear-gradient(90deg, rgba(82,71,255,1) 0%, rgba(56,44,247,1) 87%);
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 0px;
+            cursor: pointer;
+            box-shadow:4px 4px 10px rgba(0,0,0,0.09);
+            transition: 0.4s;
+
+        }
+        .form-group button:hover{
+            box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+            background: linear-gradient(180deg, rgba(82,71,255,1) 0%, rgba(56,44,247,1) 87%);
+        }
+        
+        .form-group textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            resize: vertical;
+            border:0;
+            box-shadow:4px 4px 10px rgba(0,0,0,0.09);
+            transition: 0.2s;
+        }
+        .form-group textarea:hover{
+            box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+        }
